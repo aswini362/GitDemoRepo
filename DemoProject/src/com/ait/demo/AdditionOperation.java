@@ -7,6 +7,7 @@ public class AdditionOperation {
 	public static void main(String[] args) {
 	AdditionOperation op=new AdditionOperation();
 	System.out.println(op.add(10, 20));
+	System.out.println(op.add(23, 45));
 
 	}
 

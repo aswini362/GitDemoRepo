@@ -9,5 +9,6 @@ public Date getSysDate() {
 public static void main(String[] args) {
 	CurrentDateAndTime u=new CurrentDateAndTime();
 	System.out.println(u.getSysDate());
+	System.out.println("show current date time::"+u.getSysDate());
 }
 }

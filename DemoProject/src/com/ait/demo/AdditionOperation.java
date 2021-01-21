@@ -1,9 +1,12 @@
 package com.ait.demo;
 
 public class AdditionOperation {
-
+  public int add(int a,int b) {
+	  return a+b;
+  }
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	AdditionOperation op=new AdditionOperation();
+	System.out.println(op.add(10, 20));
 
 	}
 

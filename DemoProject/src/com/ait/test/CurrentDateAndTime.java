@@ -6,4 +6,8 @@ public class CurrentDateAndTime {
 public Date getSysDate() {
 	return new Date();
 }
+public static void main(String[] args) {
+	CurrentDateAndTime u=new CurrentDateAndTime();
+	System.out.println(u.getSysDate());
+}
 }
